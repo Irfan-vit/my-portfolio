@@ -3,10 +3,12 @@
 :root {
     --primary-color: #7C3AED;
     --dark-gray: #6B7280;
+    --off-white: #E5E7EB;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -95,6 +97,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding: 1rem;
     font-size: ;
     color: var(--dark-gray);
@@ -102,4 +105,41 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* Footers */
+
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    /* text-align: center; */
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-pills{
+    text-align: right;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    
 }
