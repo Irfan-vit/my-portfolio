@@ -32,7 +32,9 @@ hr {
 /** links **/
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    margin: 1rem;
+    /* margin-bottom: 1rem;
+    padding: 0.5rem 1rem; */
 }
 
 /* BEM Namming */
@@ -133,6 +135,11 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
 }
 
 .footer .footer-pills{
