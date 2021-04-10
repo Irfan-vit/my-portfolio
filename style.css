@@ -15,6 +15,12 @@ hr {
     margin: 2rem 0rem;
 }
 
+/* spaces */
+
+.margin-md{
+    padding: 30rem;
+}
+
 .container {
     /* padding-left: 1rem;
     padding-right: 1rem; */
@@ -24,9 +30,6 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
-}
-.container-fluid {
-
 }
 
 /** links **/
@@ -101,7 +104,7 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding: 1rem;
-    font-size: ;
+    /* font-size: ; */
     color: var(--dark-gray);
 }
 
@@ -149,4 +152,17 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
     
+}
+
+/* projects */
+.showcase-list {
+    padding: 2rem;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.list-block {
+    display: block;
+    padding: 0rem 0.5rem;
 }
