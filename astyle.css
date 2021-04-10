@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(images/bg) no-repeat;
 	background-size:cover;
 }
 .box{
@@ -21,12 +20,12 @@ body{
 	height:200px;
 
 }
-.icon-img{
+/* .icon-img{
 	border-radius: 50%;
 	width:35px;
 	height:35px;
 
-}
+} */
 .box h1{
 	font-size: 40px;
 	letter-spacing: 4px;
@@ -40,12 +39,12 @@ body{
 .box p{
 	text-align: justify;
 }
-ul{
+/* ul{
 	margin: 0;
 	padding: 0;
 
-}
-ul li{
+} */
+/* ul li{
 	list-style: none;
 	widows: 30px;
 	height: 30px;
@@ -53,18 +52,18 @@ ul li{
 	line-height: 30px;
 	margin: 0 10px;
 	margin-bottom: 5%;
-}
+} */
 .box li{
 	display: inline-block;
 	list-style: none;
 	transition: all ease-in-out 250ms;
 	border-radius:90%;
 }
-.box li a{
+/* .box li a{
 	color: white;
 	text-decoration: none;
 	font-size: 60px;
-}
+}  */
 .box ul li:hover{
 
 	width:35px;

@@ -222,3 +222,23 @@ hr {
 /* blopost */
 
 
+
+.hov li{
+    display: inline-block;
+	list-style: none;
+	transition: all ease-in-out 250ms;
+	border-radius:90%;
+}
+
+.hov ul li:hover{
+
+	width:35px;
+	height:35px;
+	background: transparent;
+	box-shadow: 0 0 0 40px rgba(255,255,255,0.05),
+				0 0 45px rgba(255,255,255,0.05),
+				0 0 45px rgba(255,255,255,0.05),
+				0 0 0 75px rgba(255,255,255,0.05);
+
+
+}
