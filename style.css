@@ -113,6 +113,11 @@ hr {
 }
 .navigation .nav-pills {
     text-align: right;
+    white-space: nowrap;
+    overflow: scroll;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
 }
 
 .navigation .link {
