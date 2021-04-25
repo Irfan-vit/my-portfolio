@@ -145,6 +145,13 @@ hr {
     text-align: center;
 }
 
+.hero-less-paddings {
+    padding: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+
 
 
 .hero .hero-img {
@@ -159,6 +166,16 @@ hr {
     width: 750px;
     display: block;
     margin: auto;
+    
+  
+}
+
+.hero-less-paddings .hero-big-imgs {
+    max-width: 80%;
+    width: 350px;
+    height: 250px;
+    display: inline;
+    margin: 1% 1%;
   
 }
 
@@ -248,4 +265,10 @@ hr {
 				0 0 0 75px rgba(255,255,255,0.05);
 
 
+}
+
+.col {
+    color: #5B21B6;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
