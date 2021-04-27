@@ -358,10 +358,12 @@ a:hover {
  }
 
  .author {
+     margin-top: 0.3rem;
      width: 10%;
      display: inline-block;
      vertical-align: top;
      padding-left: 0.8rem;
+     padding-right: 0.3rem;
  } 
 
  .sec-blog {
