@@ -100,27 +100,35 @@ hr {
 
 /** navigation **/
 
-.navigation {
+nav,
+footer {
     background-color: var(--primary-color);
-    border-bottom-left-radius: 00.5rem;
-    color: white;
-    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px 5px var(--primary-color);
+    min-height: 10vh;
+    flex-direction: column;
 }
 
-.navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+.footer-pills{
+    padding: 0px;
 }
-.navigation .nav-pills {
-    text-align: right;
-    white-space: nowrap;
-    overflow: scroll;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
+.inline-list-items {
+    display: inline;
 }
+
+
+.brand-link {
+    color: var(--text-color);
+    padding: 10px;
+}
+
+.nav-li {
+    padding: 1rem 2rem;
+}
+
 
 .navigation .link {
     color: white;
@@ -128,6 +136,19 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        padding: 0%;
+        margin-bottom: 20px;
+    }
+
 }
 
 /* header */
@@ -205,34 +226,6 @@ hr {
     background-color: var(--off-white);
 }
 
-/* Footers */
-
-.footer {
-    background-color: #7C3AED;
-    color: white;
-    padding: 4rem 1rem;
-    /* text-align: center; */
-    border-top-right-radius: 1rem;
-}
-
-.footer .link {
-    color: white;
-}
-
-.footer .footer-header {
-    font-weight: bold;
-    font-size: larger;
-
-}
-
-.footer .footer-pills{
-    text-align: right;
-}
-
-.footer ul {
-    padding-inline-start: 0px;
-    
-}
 
 /* projects */
 .showcase-list {
