@@ -3,104 +3,100 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="styles.css" rel="stylesheet" /> -->
+    <script src="https://kit.fontawesome.com/ae7ce8d210.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Blog | Irfan</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <nav class="navigation container">
-        <div class="nav-brand">My Portfolio</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="index.html">home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="projects.html">projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="blogs.html">blogs</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="about.html">About</a>
-            </li class="list-item-inline">
-        </ul>
-    </nav>
-
-    <header class="hero">
-        <img class="hero-img" src="images/bp.svg" alt="">
-        <h1 class="hero-heading">My <span class="heading-inverted"> Blogs </span></h1>
+    <div class="header">
+        <a class="menu" href="javascript:;"><img src="https://i.ibb.co/7NJ15tn/menu.png" alt=""></a>
+        <div class="container">
+            <nav class="nav" id="navbar">
+                <ul class="nav__links">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="projects.html" class="nav__link">Projects</a></li>
+                    <li><a href="blogs.html" class="nav__link">Blogs</a></li>
+                    <li><a href="about.html" class="nav__link">About</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header class="img-class">
+        <img class="hero-img" src="images/po.svg" alt="">
+        <h1 class="hero-heading">Check Out My <em class="important">Blogs</em></h1>
     </header>
+    <section class="about" id="about">
+        <div class="container container_padding">
+            <h2 class="about__heading section-heading">Blogs</h2>
+            <p class="about__content">
+                <em class="important">Welcome to my blogs.</em> Grab A seat and enjoy a walk-through of
+                blooming Technologies around the
+                world..
+            </p>
+            <div class="about__cards">
+                <div class="about__card">
+                    <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                        alt="" class="about__card-img" />
+                    <h3 style="text-align:center"><em class="important">Dashboard</em> using <em
+                            class="important">R</em>-Markdown</h3>
+                    <p class="about__card-text">
+                        Vehicle crash contributes to a significant number of deaths and injuries in human race. To come
+                        out with an effective solution Our visualization data provides complete failure analysis and the
+                        cost of labor for repair, and equipment for the vehicles, all over the United States....<a
+                            href="https://car-failure-analysis.netlify.app/"><span class="heading-inverted">
+                                read more </span></a>
+                    </p>
+                </div>
+                <div class="about__card">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80"
+                        alt="" class="about__card-img" />
+                    <h3 style="text-align:center"><em class="important">Blockchain</em> Based <em
+                            class="important">Cloud</em> Storage </h3>
+                    <p class="about__card-text">
+                        Decentralized cloud storage is one such repository wherein data is stored into multiple
+                        nodes. Files are broken and spread across multiple nodes by a process known as
+                        sharding.Files are broken and spread across multiple nodes by a process known as sharding....<a
+                            href="https://decentralised-cloud-storage.netlify.app/"><span class="heading-inverted">
+                                read more </span></a>
+                    </p>
 
-    <ul class="list-remove-bullet">
-
-        <li>
-            <article class="showcase-list container container-centers ">
-                <h1>Blockchain Based Cloud Storage</h1>
-                <small>December, 2020</small>
-                <p>Decentralized cloud storage is one such repository wherein data is stored into multiple nodes
-                    (computers). Files are broken and spread across multiple nodes by a process known as sharding. </p>
-
-                <a class="link link-primary" href="blog1.html">Read More</a>
-                <a class="link link-secondary"
-                    href="https://github.com/Irfan-vit/my-portfolio/blob/main/blog1.html">View
-                    Source</a>
-            </article>
-
-        </li>
-
-        <li>
-            <article class="showcase-list container container-centers ">
-                <h1>Creating a Dashboard Web application using R-Markdown and R language</h1>
-                <small>November, 2020</small>
-                <p>Vehicle crash contributes to a significant number of deaths and injuries in human race.
-                    To come out with an effective solution Our visualization data provides complete failure analysis and
-                    the cost of labor for repair, and equipment for the vehicles, all over the United States.
-                    <strong></strong></p>
-
-                <a class="link link-primary" href="https://car-failure-analysis.netlify.app/">Read More</a>
-                <a class="link link-secondary" href="https://github.com/Irfan-vit/blog_2-main">View
-                    Source</a>
-
-            </article>
-
-        </li>
-
-    </ul>
-
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
-        <div class="footer-header">social media presence</div>
-        <ul class="social-links list-non-bullet footer-pills">
-            <!-- <li class="list-item-inline">
-                <a class="link" href="https://github.com/Irfan-vit" target="_blank" rel="noopener noreferrer">
-                    github
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://www.linkedin.com/in/irfan-nawaz/" target="_blank" rel="noopener noreferrer">
-                    Linkedin
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://www.instagram.com/incredible._.irfan/" target="_blank" rel="noopener noreferrer">
-                    Instagram
-                </a>
-            </li> -->
+        <div class="container container_padding">
 
-            <li class="list-item-inline zoa"><a class="link" href="https://github.com/Irfan-vit" target="_blank"
-                    rel="noopener noreferrer"><img src="images/x.png" class="icon-img" height="35" width="35"></a></li>
-            <li class="list-item-inline zoa"><a class="link"
-                    href="https://mail.google.com/mail/u/0/?fs=1&to=shaikmd.irfannawaz2020@gmail.com&su=SUBJECT&body=BODY&bcc=&tf=cm"
-                    target="_blank" rel="noopener noreferrer"><img src="images/gm.png" class="icon-img" height="28"
-                        width="35"></a></li>
-            <li class="list-item-inline zoa"><a class="link" href="https://www.linkedin.com/in/irfan-nawaz/"
-                    target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" class="icon-img"
-                        height="30" width="35"></a></li>
+            <div class="footer-section">
+                <h2 class="footer-section__heading">Social</h2>
+                <div class="footer-section__content">
+                    <div class="footer__social-item">
+                        <a href="https://www.linkedin.com/in/irfan-nawaz/" target="_blank"><i
+                                class="fab fa-linkedin"></i>
+                            LinkedIn</a>
+                    </div>
+                    <div class="footer__social-item">
+                        <a href="https://github.com/Irfan-vit" target="_blank" id="profile-link"><i
+                                class="fab fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
 
-        </ul>
+            <div class="footer-section">
+                <h2 class="footer-section__heading">Author :</h2>
+                <div class="footer-section__content">
+                    <p>Made with ❤️ by Shaik Md Irfan Nawaz.</p>
+                </div>
+            </div>
+
+        </div>
     </footer>
-
+    <script type="text/javascript" src="menu.js"></script>
 </body>
 
 </html>

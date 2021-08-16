@@ -6,87 +6,313 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="stylem.css"> -->
-    <title>Irfan Profile</title>
+    <script src="https://kit.fontawesome.com/ae7ce8d210.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 
 <body>
-    <nav class="navigation container">
-        <div class="nav-brand">My Portfolio</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active" href="index.html">home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="projects.html">projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="blogs.html">blogs</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="about.html">About</a>
-            </li class="list-item-inline">
-        </ul>
-    </nav>
-
-    <header class="hero">
-        <img class="hero-img" src="images/hero.svg" alt="">
-        <h1 class="hero-heading">I'm a <span class="heading-inverted">Web Developer </span> </h1>
-        <h3 class="hero-heading" style="margin-top:-30px;"><a href="about.html">Know more <span
-                    class="heading-inverted">about
-
-                </span>me</a></h3>
+    <header class="header">
+        <a class="menu" href="javascript:;"><img src="https://i.ibb.co/7NJ15tn/menu.png" alt=""></a>
+        <div class="container">
+            <nav class="nav" id="navbar">
+                <ul class="nav__links">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="projects.html" class="nav__link">Projects</a></li>
+                    <li><a href="blogs.html" class="nav__link">Blogs</a></li>
+                    <li><a href="about.html" class="nav__link">About</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="section ow">
-        <div class="container">
-            <h1>Technologies</h1>
-            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+    <section class="hero" id="welcome-section">
+        <div class="container container_padding">
+            <h2 class="hero__subheading">Hey I'm <em class="important">Shaik Irfan</em>.</h2>
+            <h1 class="hero__heading">
+                I <em class="important">design</em> and
+                <em class="important">build</em> websites that captivate people.
+            </h1>
+            <div class="hero__social">
+                <div class="hero__fcc">
+                    <a href="#projects"><img src="https://img.icons8.com/ios-filled/40/ffffff/mind-map.png" /></a>
+                </div>
+                <div class="hero__fcc">
+                    <a href="#blogs"><img src="https://img.icons8.com/ios-filled/40/ffffff/quill-with-ink.png" />
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <h1>Projects</h1>
-            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
-            <a class="link link-primary" href="projects.html">see projects</a>
-        </div>
-    </section>
-
-    <section class="section ow">
-        <div class="container">
-            <h1>Blogs</h1>
-            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+    <section class="about" id="about">
+        <div class="container container_padding">
+            <h2 class="about__heading section-heading">About</h2>
+            <p class="about__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                recusandae accusamus aliquam sapiente similique, dolore, pariatur
+                consequatur illum distinctio nisi unde fuga beatae? Accusantium,
+                officiis? <a href="about.html"><span class="heading-inverted">
+                        Know More about me ... </span></a>
             </p>
-            <a class="link link-primary" href="blogs.html">Read Blogs</a>
+            <h2 style="text-align:center;margin-top:20px;margin-bottom:-20px">Skills</h2>
+            <div class="main">
+                <div class="skill">
+                    <h3>Languages</h3>
+                    <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" />
+                    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v2.png" />
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v2.png" />
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" />
+                    <img src="https://img.icons8.com/plasticine/48/000000/oracle-pl-sql--v3.png" />
+                    <img src="https://img.icons8.com/windows/48/000000/r-project.png" />
+                </div>
+                <hr>
+                <div class="skill">
+                    <h3>FrameWorks</h3>
+                    <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+                    <img src="https://img.icons8.com/color/48/000000/react-native.png" />
+                </div>
+                <hr>
+                <div class="skill">
+                    <h3>Tools</h3>
+                    <img src="https://img.icons8.com/plasticine/48/000000/bash.png" />
+                    <img src="https://img.icons8.com/cute-clipart/48/000000/github.png" />
+                    <img src="https://img.icons8.com/dusk/48/000000/postman-api.png" />
+                    <img src="https://img.icons8.com/color/48/000000/heroku.png" />
+                    <img src="./images/netlify.png" alt="">
+                </div>
+                <hr>
+                <div class="skill">
+                    <h3>IDE</h3>
+                    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" />
+                    <img src="https://img.icons8.com/bubbles/50/000000/r--v2.png" />
+                    <img src="https://img.icons8.com/officel/48/000000/java-eclipse.png" />
+                    <img src="https://img.icons8.com/windows/48/4a90e2/netbeans.png" />
+                </div>
+                <hr>
+            </div>
+        </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <h1>About</h1>
-            <p>Know more about me.</p>
-            <a class="link link-primary" href="about.html">Check</a>
+    <section class="about" id="blogs">
+        <div class="container container_padding">
+            <h2 class="about__heading section-heading">Blogs</h2>
+            <p class="about__content">
+                <em class="important">Welcome To My Blogs.</em> Grab A Seat And Enjoy A Walk-Through Over
+                Blooming Technologies Around The World...
+            </p>
+            <div class="about__cards">
+                <div class="about__card">
+                    <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                        alt="" class="about__card-img" />
+                    <h3 style="text-align:center; margin-top:10px;"><em class="important">Dashboard</em> using <em
+                            class="important">R</em>-Markdown</h3>
+                    <p class="about__card-text">
+                        Vehicle crash contributes to a significant number of deaths and injuries in human race. To come
+                        out with an effective solution Our visualization data provides complete failure analysis and the
+                        cost of labor for repair, and equipment for the vehicles, all over the United States....<a
+                            href="https://car-failure-analysis.netlify.app/"><span class="heading-inverted">
+                                read more </span></a>
+                    </p>
+                </div>
+                <div class="about__card">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80"
+                        alt="" class="about__card-img" />
+                    <h3 style="text-align:center; margin-top:10px;"><em class="important">Blockchain</em> Based <em
+                            class="important">Cloud</em> Storage </h3>
+                    <p class="about__card-text">
+                        Decentralized cloud storage is one such repository wherein data is stored into multiple
+                        nodes. Files are broken and spread across multiple nodes by a process known as
+                        sharding.Files are broken and spread across multiple nodes by a process known as sharding....<a
+                            href="https://decentralised-cloud-storage.netlify.app/"><span class="heading-inverted">
+                                read more </span></a>
+                    </p>
+
+                </div>
+            </div>
+            <h5 style="text-align:center; margin-top: 15px;"> <a href="blogs.html"
+                    style="border: 2px solid #5a21b6;border-radius:15px;padding:3px 20px;margin-bottom: 10px; background-color:#5a21b6; color:whitesmoke;box-shadow: 3px 3px 3px grey; font-family: 'Poppins', sans-serif;;">
+                    View All
+                </a></h5>
+            <hr style="background-color:#5B21B6; height:2px;">
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container container_padding">
+            <h2 class="projects__heading section-heading">Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <div class="project__thumbnail project__thumbnail_swap">
+                        <img src="./images/lucky.PNG" alt="">
+                    </div>
+                    <div class="project__description">
+                        <div class="project__title">Check If Your Birthday is lucky</div>
+                        <p class="project__text">
+                            Is Your Birthday Lucky ? is web application, created using ReactJS The application takes
+                            user's complete birthday And his/her lucky number to find if it is lucky or not.
+                            <br>
+                            Note: we do not what so ever save any information / data of our users
+                        </p>
+                        <div id="outer">
+                            <div class="inner"><a href="https://lucky-birthdays.netlify.app/">View Live</a>
+                            </div>
+                            <div class="inner"><a href="https://github.com/Irfan-vit/IsYourBirthdayLucky">Source</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__thumbnail">
+                        <img src="https://images.unsplash.com/photo-1600478750228-8b894da7bc48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="project__description">
+                        <div class="project__title">YourStock 📈</div>
+                        <p class="project__text">
+                            ProfitOrLossOnYourStock is web application, created using ReactJS The application takes
+                            user's stock price and quantity for one stock when he bought it and today's stock price
+                            for
+                            that stock and tells the user how much profit or loss he/she is making.
+                        </p>
+                        <div id="outer">
+                            <div class="inner"><a href="https://profit-or-loss-on-your-stocks.netlify.app/">View
+                                    Live</a>
+                            </div>
+                            <div class="inner"><a href="https://github.com/Irfan-vit/ProfitOrLossOnYourStock">Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div href="javascript:;" class="project"> -->
+                <div class="project">
+                    <div class="project__thumbnail project__thumbnail_swap">
+                        <img src="./images/palindrome.PNG">
+                    </div>
+                    <div class="project__description">
+                        <div class="project__title">Is Your Birthday a Palindrome ?</div>
+                        <p class="project__text">
+                            Is Your Birthday A palindrome ? is web application, created using ReactJS The
+                            application
+                            takes your birthday as a input and checks it in various formats to form a palindrome, it
+                            also tells us the nearest palinderome date in case if our birthdate is not a palindrome
+                            .
+                        </p>
+                        <div id="outer">
+                            <div class="inner"><a href="https://is-your-birthdate-a-palindrome.netlify.app/">View
+                                    Live</a>
+                            </div>
+                            <div class="inner"><a href="https://github.com/Irfan-vit/palindromeBday">Source</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__thumbnail">
+                        <img src="./images/triangle.PNG" alt="">
+                    </div>
+                    <div class="project__description">
+                        <div class="project__title">Fun With Triangles</div>
+                        <p class="project__text">
+                            Do you know triangles ? is web application, created using VanillaJS The application can
+                            perform different operations on traiangles and also it has a quiz to test your knowledge
+                            on
+                            Triangles.
+                        </p>
+                        <div id="outer">
+                            <div class="inner"><a href="https://fun-with-triangles-12.netlify.app/">View Live</a>
+                            </div>
+                            <div class="inner"><a href="https://github.com/Irfan-vit/Triangles">Source</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__thumbnail project__thumbnail_swap">
+                        <img src="./images/shows.PNG" alt="">
+                    </div>
+                    <div class="project__description">
+                        <div class="project__title">Premier Shows</div>
+                        <p class="project__text">
+                            Primer Shows is web application, created using ReactJS Which recommends some of the best
+                            rated shows based on their genre in it's category and also gives a summary about the
+                            show.
+                        </p>
+                        <div id="outer">
+                            <div class="inner"><a href="https://premier-tv.netlify.app/">View Live</a>
+                            </div>
+                            <div class="inner"><a href="https://github.com/Irfan-vit/moviesDB">Source</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="btn-grad"><a href="projects.html">More Projects</a></button> -->
+            <h5 style="text-align:center; margin-top: 15px;"> <a href="projects.html"
+                    style="border: 2px solid #5B21B6;border-radius:15px;padding:3px 20px;margin-bottom: 10px; background-color:#5B21B6; color:whitesmoke;box-shadow: 3px 3px 3px grey;;">
+                    View All
+                </a></h5>
+            <hr style="background-color:#5B21B6; height:2px;">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container container_padding">
+
+            <h2 class="contact__heading section-heading">Contact</h2>
+
+            <form class="contact-form" action="">
+                <div class="contact-form__group contact-form__group_name">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="contact-form__group contact-form__group_email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div class="contact-form__group contact-form__group_message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+
+                <div class="contact-form__group">
+                    <button type="submit" class="contact-form__submit">Submit</button>
+                </div>
+            </form>
+
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-header">connect with me</div>
-        <ul class="social-limks list-remove-bullet footer-pills">
-            <li class="list-item-inline zoa"><a class="link" href="https://github.com/Irfan-vit" target="_blank"
-                    rel="noopener noreferrer"><img src="images/x.png" class="icon-img" height="35" width="35"></a></li>
-            <li class="list-item-inline zoa"><a class="link"
-                    href="https://mail.google.com/mail/u/0/?fs=1&to=shaikmd.irfannawaz2020@gmail.com&su=SUBJECT&body=BODY&bcc=&tf=cm"
-                    target="_blank" rel="noopener noreferrer"><img src="images/gm.png" class="icon-img" height="28"
-                        width="35"></a></li>
-            <li class="list-item-inline zoa"><a class="link" href="https://www.linkedin.com/in/irfan-nawaz/"
-                    target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" class="icon-img"
-                        height="30" width="35"></a></li>
-        </ul>
+        <div class="container container_padding">
 
+            <div class="footer-section">
+                <h2 class="footer-section__heading">Social</h2>
+                <div class="footer-section__content">
+                    <div class="footer__social-item">
+                        <a href="https://www.linkedin.com/in/irfan-nawaz/" target="_blank"><i
+                                class="fab fa-linkedin"></i>
+                            LinkedIn</a>
+                    </div>
+                    <div class="footer__social-item">
+                        <a href="https://github.com/Irfan-vit" target="_blank" id="profile-link"><i
+                                class="fab fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h2 class="footer-section__heading">Author :</h2>
+                <div class="footer-section__content">
+                    <p>Made with ❤️ by Shaik Md Irfan Nawaz.</p>
+                </div>
+            </div>
+
+        </div>
     </footer>
-
-
+    <script type="text/javascript" src="menu.js"></script>
 </body>
 
 </html>
