@@ -14,7 +14,7 @@ body {
   background-color: #EEEEEE;
   color: #303030;
   font-size: 1.1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive
 }
 
 
@@ -32,7 +32,7 @@ img {
 }
 
 .img-class {
-    padding-top: 5rem;
+  padding-top: 5rem;
 
 }
 
