@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae7ce8d210.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -12,25 +13,22 @@
 
 <body>
     <div>
-        <nav class="navigation container">
-            <div class="nav-brand">My Portfolio</div>
-            <ul class="list-non-bullet nav-pills">
-                <li class="list-item-inline">
-                    <a class="link" href="index.html">home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="projects.html">projects</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="blogs.html">blogs</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link link-active" href="about.html">About</a>
-                </li class="list-item-inline">
-            </ul>
-        </nav>
+        <header class="header">
+            <a class="menu" href="javascript:;"><img src="https://i.ibb.co/7NJ15tn/menu.png" alt=""></a>
+            <div class="container">
+                <nav class="nav" id="navbar">
+                    <ul class="nav__links">
+                        <li><a href="index.html" class="nav__link">Home</a></li>
+                        <li><a href="projects.html" class="nav__link">Projects</a></li>
+                        <li><a href="blogs.html" class="nav__link">Blogs</a></li>
+                        <li><a href="about.html" class="nav__link">About</a></li>
+                        <li><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
     </div>
-    <div class="box">
+    <div class="box" style="color: beige">
         <img src="images/0.jfif" class="box-img">
         <h1>SHAIK MD IRFAN NAWAZ</h1>
         <h5>Web Dev Enthusiast</h5>
@@ -49,8 +47,57 @@
             expand my knowledge in the field of computer science.
         </p>
     </div>
-    <ul class="list-remove-bullet center">
-        <h2 class="just">Contact Me</h2>
+    <ul class="list-remove-bullet center" style="color: beige">
+        <h2 class="just">My Tech Stack</h2>
+        <li>
+            <div class="main">
+                <div class="skill">
+                    <h3>Languages</h3>
+                    <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+                        class="list-item-inline zoa" />
+                    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v2.png"
+                        class="list-item-inline zoa" />
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v2.png" class="list-item-inline zoa" />
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" class="list-item-inline zoa" />
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" class="list-item-inline zoa" />
+                    <img src="https://img.icons8.com/plasticine/48/000000/oracle-pl-sql--v3.png"
+                        class="list-item-inline zoa" />
+                    <img src="https://img.icons8.com/windows/48/000000/r-project.png" class="list-item-inline zoa" />
+                </div>
+        </li>
+        <hr>
+        <li>
+            <div class="skill">
+                <h3>FrameWorks</h3>
+                <img src="https://img.icons8.com/color/48/000000/nodejs.png" class="list-item-inline zoa" />
+                <img src="https://img.icons8.com/color/48/000000/react-native.png" class="list-item-inline zoa" />
+            </div>
+        </li>
+        <hr>
+        <li>
+            <div class="skill">
+                <h3>Tools</h3>
+                <img src="https://img.icons8.com/plasticine/48/000000/bash.png" class="list-item-inline zoa" />
+                <img src="https://img.icons8.com/cute-clipart/48/000000/github.png" class="list-item-inline zoa" />
+                <img src="https://img.icons8.com/dusk/48/000000/postman-api.png" class="list-item-inline zoa" />
+                <img src="https://img.icons8.com/color/48/000000/heroku.png" class="list-item-inline zoa" />
+                <img src="./images/netlify.png" class="list-item-inline zoa" />
+            </div>
+        </li>
+        <hr>
+        <li>
+            <div class="skill">
+                <h3>IDE</h3>
+                <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+                    class="list-item-inline zoa" />
+                <img src="https://img.icons8.com/bubbles/50/000000/r--v2.png" class="list-item-inline zoa" />
+                <img src="https://img.icons8.com/officel/48/000000/java-eclipse.png" class="list-item-inline zoa" />
+                <img src="https://img.icons8.com/windows/48/4a90e2/netbeans.png" class="list-item-inline zoa" />
+            </div>
+            <hr>
+        </li>
+        </div>
+        <!-- <h2 class="just">Contact Me</h2>
         <li class="list-item-inline zoa"><a href="https://github.com/Irfan-vit" target="_blank"
                 rel="noopener noreferrer"><img src="images/x.png" class="icon-img" height="35" width="35"></a></li>
         <li class="list-item-inline zoa"><a
@@ -58,8 +105,37 @@
                 target="_blank" rel="noopener noreferrer"><img src="images/gm.png" class="icon-img" height="28"
                     width="35"></a></li>
         <li class="list-item-inline zoa"><a href="https://www.instagram.com/incredible._.irfan/ " target="_blank"
-                rel="noopener noreferrer"><img src="images/d.png" class="icon-img" height="30" width="35"></a></li>
+                rel="noopener noreferrer"><img src="images/d.png" class="icon-img" height="30" width="35"></a></li> -->
     </ul>
+    <footer class="footer" id="contact">
+        <div class="container container_padding">
+
+            <div class="footer-section">
+                <h2 class="footer-section__heading">Social</h2>
+                <div class="footer-section__content">
+                    <div class="footer__social-item">
+                        <a href="https://www.linkedin.com/in/irfan-nawaz/" target="_blank"><i
+                                class="fab fa-linkedin"></i>
+                            LinkedIn</a>
+                    </div>
+                    <div class="footer__social-item">
+                        <a href="https://github.com/Irfan-vit" target="_blank" id="profile-link"><i
+                                class="fab fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h2 class="footer-section__heading">Author :</h2>
+                <div class="footer-section__content">
+                    <p>Made with ❤️ by Shaik Md Irfan Nawaz.</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="menu.js"></script>
 </body>
 
 </html>
