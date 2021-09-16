@@ -1,6 +1,6 @@
 # Welcome To my Portfolio version-0 (v-0)
 
-## Note Thiis is no longer being maintained as I have updated my portfolio to [V-1](https://shaik-irfan.netlify.app/)
+## Note This is no longer being maintained as I have updated my portfolio to [V-1](https://shaik-irfan.netlify.app/)
 
 - This is the initial version of my portfolio (no longer maintined)
 - The main branch has been implimented with ejs and expressjs to add server-side and to route between different pages
